@@ -73,6 +73,8 @@
     <input type="button" name="register" value ="登录" onclick="window.location.href='midPage.jsp'"/>
     <br>
     <a href="getParamTest.jsp?id=123&user=ycy&pwd=456789">处理页</a>
+    <br>
+    <a href="test2.jsp">结果页</a>
   <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
