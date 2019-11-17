@@ -1,6 +1,6 @@
 <%--
   Created by IntelliJ IDEA.
-  User: 彭友聪
+  User: 御承扬
   Date: 2019/11/15
   Time: 下午 7:22
   To change this template use File | Settings | File Templates.
@@ -69,6 +69,8 @@
       </td>
     </tr>
   </table>
+    <br>
+    <input type="button" name="register" value ="登录" onclick="window.location.href='midPage.jsp'"/>
   <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
