@@ -70,11 +70,14 @@
     </tr>
   </table>
     <br>
+    <br>
     <input type="button" name="register" value ="登录" onclick="window.location.href='midPage.jsp'"/>
     <br>
     <a href="getParamTest.jsp?id=123&user=ycy&pwd=456789">处理页</a>
     <br>
     <a href="test2.jsp">结果页</a>
+    <br>
+    <input type="button" name="register" value ="打开 cookie 测试页面" onclick="window.location.href='cookie.jsp'"/>
   <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
