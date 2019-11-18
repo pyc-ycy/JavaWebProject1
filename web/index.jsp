@@ -35,6 +35,11 @@
         border-colorlight: #FFFFF;
         border: 1px #FFFFFF;
       }
+        button{
+            border: black 2px;
+            background: darkgray;
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -73,11 +78,19 @@
     <br>
     <input type="button" name="register" value ="登录" onclick="window.location.href='midPage.jsp'"/>
     <br>
+    <br>
     <a href="getParamTest.jsp?id=123&user=ycy&pwd=456789">处理页</a>
     <br>
     <a href="test2.jsp">结果页</a>
     <br>
+    <br>
     <input type="button" name="register" value ="打开 cookie 测试页面" onclick="window.location.href='cookie.jsp'"/>
+    <br>
+    <br>
+    <input type="button" name="test" value="获取客户端信息" onclick="window.location.href='JSP内置对象/code01.jsp'"/>
+    <br>
+    <br>
+    <input type="button" name="test" value="根据地区显示语言" onclick="window.location.href='JSP内置对象/localLanguage.jsp'"/>
   <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
