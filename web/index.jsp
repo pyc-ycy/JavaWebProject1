@@ -91,6 +91,9 @@
     <br>
     <br>
     <input type="button" name="test" value="根据地区显示语言" onclick="window.location.href='JSP内置对象/localLanguage.jsp'"/>
+    <br>
+    <br>
+    <input type="button" value="网页重定向" onclick="window.location.href='JSP内置对象/testRedirect.jsp'">
   <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
