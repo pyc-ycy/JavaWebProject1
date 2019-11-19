@@ -3,4 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <context-param>
+        <param-name>author</param-name>
+        <param-value>御承扬</param-value>
+    </context-param>
+    <context-param>
+        <param-name>createDate</param-name>
+        <param-value>2019-11-15</param-value>
+    </context-param>
+    <context-param>
+        <param-name>createTime</param-name>
+        <param-value>16:20:30</param-value>
+    </context-param>
 </web-app>

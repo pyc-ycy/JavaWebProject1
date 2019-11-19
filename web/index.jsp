@@ -94,6 +94,12 @@
     <br>
     <br>
     <input type="button" value="网页重定向" onclick="window.location.href='JSP内置对象/testRedirect.jsp'">
+    <br>
+    <br>
+    <input type="button" value="session" onclick="window.location.href='JSP内置对象/getName.jsp'">
+    <p>
+        应用初始化信息 author 的值：<%=application.getInitParameter("author")%>
+    </p>
   <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
