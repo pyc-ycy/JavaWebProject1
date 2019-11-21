@@ -101,6 +101,12 @@
         应用初始化信息 author 的值：<%=application.getInitParameter("author")%>
     </p>
     <input type="button" value="out" onclick="window.location.href='JSP内置对象/outTest.jsp'">
+    <br>
+    <br>
+    <input type="button" value="page" onclick="window.location.href='JSP其他内置对象/pageTest.jsp'">
+    <br>
+    <br>
+    <input type="button" value="异常处理" onclick="window.location.href='JSP其他内置对象/errorPage.jsp'">
   <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
