@@ -107,6 +107,14 @@
     <br>
     <br>
     <input type="button" value="异常处理" onclick="window.location.href='JSP其他内置对象/errorPage.jsp'">
+    <br>
+    <br>
+    <input type="button" value="JavaBean尝试" onclick="window.location.href='JavaBeanSet/JavaBeanTest/EmailCheck.jsp'">
+    <br>
+    <br>
+    <input type="button" value="JavaBean属性获取" onclick="window.location.href='JavaBeanSet/JavaBeanUse/getJavaBeanParameter.jsp'">
+    <br>
+    <input type="button" value="JavaBean属性设置" onclick="window.location.href='JavaBeanSet/JavaBeanUse/setJavaBeanParameter.jsp'">
   <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
