@@ -115,7 +115,10 @@
     <input type="button" value="JavaBean属性获取" onclick="window.location.href='JavaBeanSet/JavaBeanUse/getJavaBeanParameter.jsp'">
     <br>
     <input type="button" value="JavaBean属性设置" onclick="window.location.href='JavaBeanSet/JavaBeanUse/setJavaBeanParameter.jsp'">
-  <%--测试--%>
+    <br>
+    <br>
+    <input type="button" value="用户信息" onclick="window.location.href='JavaBeanSet/JavaBeanUse/person.jsp'">
+    <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
 </center>
