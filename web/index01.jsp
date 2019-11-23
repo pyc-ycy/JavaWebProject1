@@ -33,6 +33,9 @@
 </head>
 <body>
 <input type="button" value="上一页" onclick="window.location.href='index.jsp'">
-<%@include file="test.jsp" %>
+<center>
+    <input type="button" value="时间日期" onclick="window.location.href='JavaBeanSet/JavaBeanUse/dateTime.jsp'">
+    <%@include file="test.jsp" %>
+</center>
 </body>
 </html>
