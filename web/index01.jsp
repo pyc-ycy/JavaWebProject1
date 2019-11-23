@@ -35,6 +35,9 @@
 <input type="button" value="上一页" onclick="window.location.href='index.jsp'">
 <center>
     <input type="button" value="时间日期" onclick="window.location.href='JavaBeanSet/JavaBeanUse/dateTime.jsp'">
+    <br>
+    <br>
+    <input type="button" value="数组转字符串" onclick="window.location.href='JavaBeanSet/JavaBeanUse/arr.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
