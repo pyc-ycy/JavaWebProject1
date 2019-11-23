@@ -121,9 +121,12 @@
     <br>
     <br>
     <input type="button" value="字符集" onclick="window.location.href='JavaBeanSet/JavaBeanUse/charSetTest.jsp'">
+    <br>
+    <br>
     <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
 </center>
+<input type="button" value="下一页" onclick="window.location.href='index01.jsp'">
 </body>
 </html>
