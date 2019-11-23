@@ -118,6 +118,9 @@
     <br>
     <br>
     <input type="button" value="用户信息" onclick="window.location.href='JavaBeanSet/JavaBeanUse/person.jsp'">
+    <br>
+    <br>
+    <input type="button" value="字符集" onclick="window.location.href='JavaBeanSet/JavaBeanUse/charSetTest.jsp'">
     <%--测试--%>
   <!--<%=new Date()%>-->
     <%@include file="test.jsp" %>
