@@ -31,4 +31,16 @@
         <servlet-name>FirstServletNew</servlet-name>
         <url-pattern>/servletTest/FirstServletNew</url-pattern>
     </servlet-mapping>
+    <filter>
+        <filter-name>FilterTest</filter-name>
+        <filter-class>com.lyq.ServletFilterSet.FilterTest</filter-class>
+        <init-param>
+            <param-name>test</param-name>
+            <param-value>御承扬的博客</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>FilterTest</filter-name>
+        <url-pattern>/FilterJSPSet/filterJSPTest.jsp</url-pattern>
+    </filter-mapping>
 </web-app>
