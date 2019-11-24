@@ -15,4 +15,20 @@
         <param-name>createTime</param-name>
         <param-value>16:20:30</param-value>
     </context-param>
+    <servlet>
+        <servlet-name>WordServlet</servlet-name>
+        <servlet-class>com.lyq.ServletSet.WordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WordServlet</servlet-name>
+        <url-pattern>/servletTest/WordServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>FirstServletNew</servlet-name>
+        <servlet-class>com.lyq.ServletSet.FirstServletNew</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FirstServletNew</servlet-name>
+        <url-pattern>/servletTest/FirstServletNew</url-pattern>
+    </servlet-mapping>
 </web-app>
