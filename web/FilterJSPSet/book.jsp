@@ -17,7 +17,7 @@
     </style>
 </head>
 <body>
-<form action="AddServlet" method="post">
+<form action="${pageContext.request.contextPath}/AddServlet" method="post">
     <table align="center" border="1" width="350">
         <tr>
             <td class="2" align="center" colspan="2">
