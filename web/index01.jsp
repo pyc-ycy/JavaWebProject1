@@ -38,6 +38,9 @@
     <br>
     <br>
     <input type="button" value="数组转字符串" onclick="window.location.href='JavaBeanSet/JavaBeanUse/arr.jsp'">
+    <br>
+    <br>
+    <input type="button" value="图书管理系统" onclick="window.location.href='FilterJSPSet/book.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
