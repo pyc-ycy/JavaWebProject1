@@ -19,7 +19,7 @@
             border: 1px solid #D1DEB2; width: 150px; height: 20px;
         }
         .div1{
-            background-image: url(images/bg.jpg);
+            background: #bdd4e9;
             height: 600px;
             width: 803px;
             padding-left:20px;

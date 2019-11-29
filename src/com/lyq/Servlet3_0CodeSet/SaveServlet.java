@@ -17,30 +17,6 @@ import java.sql.*;
 
 @WebServlet(name = "SaveServlet", urlPatterns = "/SaveServlet")
 public class SaveServlet extends HttpServlet {
-//    private Connection con;
-//    private Statement sql;
-//    {
-//        con = null;
-//    }
-
-//    public void init(ServletConfig config) throws ServletException {
-//        // 驱动程序名称
-////        String driver = "com.mysql.jdbc.Driver";
-////        String url = "jdbc:mysql://localhost:3306/test";
-////        String user = "root";
-////        String password = "root19537";
-//        try {
-//            Class.forName("com.mysql.jdbc.Driver");
-//            con = DriverManager.getConnection("jdbc:mysql:" + "//localhost:3306/test", "root", "root19537");
-//            if(con != null){
-//                System.out.println("数据库连接成功");
-//            }
-//        } catch (Exception e){
-//            e.printStackTrace();
-//        }
-//
-//    }
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // 设置request与response的编码
         response.setContentType("text/html");
@@ -98,64 +74,6 @@ public class SaveServlet extends HttpServlet {
         out.println("</html>");
         out.flush();
         out.close();
-        // 判断数据库是否连接成功
-//        try {
-//            // 插入注册信息的SQL语句(使用?占位符)
-////                Statement sql = "insert into tb_user(username,password,sex,question,answer,email) "
-////                        + "values(?,?,?,?,?,?)";
-//            // 创建PreparedStatement对象
-//            con = DriverManager.getConnection("jdbc:mysql:" + "//localhost:3306/test", "root", "root19537");
-//            if(con != null){
-//                PrintWriter out = response.getWriter();
-//                // 输出注册结果信息
-//                out.println("<html>");
-//                out.println("<head><title>注册结果</title></head>");
-//                out.println("<body>");
-//                out.print("<h1 aling='center'>");
-//                //out.print(username + "注册成功！");
-//                out.println("<center>数据库连接成功</center>");
-//                out.print("</h1>");
-//                out.println("</body>");
-//                out.println("</html>");
-//                out.flush();
-//                out.close();
-//                con.close();
-//            }
-//            else{
-//                PrintWriter out = response.getWriter();
-//                // 输出注册结果信息
-//                out.println("<html>");
-//                out.println("<head><title>注册结果</title></head>");
-//                out.println("<body>");
-//                out.print("<h1 aling='center'>");
-//                //out.print(username + "注册成功！");
-//                out.println("<center>数据库连接失败</center>");
-//                out.print("</h1>");
-//                out.println("</body>");
-//                out.println("</html>");
-//                out.flush();
-//                out.close();
-//            }
-//            sql = con.createStatement();
-//            String str = "insert into tb_user value('" + username + "','" + password + "','"
-//                    + sex + "','" + question + "','" + answer + "','" + email + "')";
-//            sql.executeUpdate(str);
-//            sql.close();
-            // 对SQL语句中的参数动态赋值
-//                ps.setString(1, username);
-//                ps.setString(2, password);
-//                ps.setString(3, sex);
-//                ps.setString(4, question);
-//                ps.setString(5, answer);
-//                ps.setString(6, email);
-//                // 执行更新操作
-//                ps.executeUpdate();
-            // 获取PrintWriter对象
-
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
