@@ -47,6 +47,9 @@
     <br>
     <br>
     <input type="button" value="@WebServlet" onclick="window.location.href='Servlet3_0/userLogin.jsp'">
+    <br>
+    <br>
+    <input type="button" value="文件上传" onclick="window.location.href='WJSC.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>

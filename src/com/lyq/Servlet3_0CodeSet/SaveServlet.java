@@ -48,7 +48,7 @@ public class SaveServlet extends HttpServlet {
             }catch (ClassNotFoundException e){
                 out.println("<br>"+e.getMessage());
             }
-            con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test", "root", "root19537");
+            con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test?serverTimezone=GMT%2B8", "root", "root19537");
             if(con!=null)
             {
                 out.println("数据库连接成功");
