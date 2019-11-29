@@ -44,6 +44,9 @@
     <br>
     <br>
     <input type="button" value="监听器" onclick="window.location.href='ListenerSet/login.jsp'">
+    <br>
+    <br>
+    <input type="button" value="@WebServlet" onclick="window.location.href='Servlet3_0/userLogin.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>

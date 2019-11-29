@@ -63,4 +63,12 @@
         <servlet-name>AddServlet</servlet-name>
         <url-pattern>/AddServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>SaveServlet</servlet-name>
+        <servlet-class>com.lyq.Servlet3_0CodeSet.SaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveServlet</servlet-name>
+        <url-pattern>/SaveServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
