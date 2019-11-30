@@ -50,6 +50,9 @@
     <br>
     <br>
     <input type="button" value="文件上传" onclick="window.location.href='WJSC.jsp'">
+    <br>
+    <br>
+    <input type="button" value="JDBC连接数据库" onclick="window.location.href='JDBCOption/ConnectTest.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
