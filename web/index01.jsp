@@ -53,6 +53,9 @@
     <br>
     <br>
     <input type="button" value="JDBC连接数据库" onclick="window.location.href='JDBCOption/ConnectTest.jsp'">
+    <br>
+    <br>
+    <input type="button" value="图书信息登记" onclick="window.location.href='JDBCOption/book.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
