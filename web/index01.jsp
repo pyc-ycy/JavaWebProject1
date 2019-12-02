@@ -56,6 +56,9 @@
     <br>
     <br>
     <input type="button" value="图书信息登记" onclick="window.location.href='JDBCOption/book.jsp'">
+    <br>
+    <br>
+    <input type="button" value="图书信息查询" onclick="window.location.href='JDBCOption/book_list.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>

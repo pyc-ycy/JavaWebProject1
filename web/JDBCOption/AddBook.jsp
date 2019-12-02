@@ -61,6 +61,7 @@
     }
 %>
 <br>
-<a href="book.jsp">返回</a>
+<a href="book.jsp">返回图书信息添加页面</a>
+<a href="book_list.jsp">去到查询页面</a>
 </body>
 </html>

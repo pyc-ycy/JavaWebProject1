@@ -82,8 +82,11 @@
             </td>
         </tr>
         <tr>
-            <td align="center" colspan="2">
+            <td align="center">
                 <input type="submit" value="提交">
+            </td>
+            <td>
+                <input type="button" value="查询" onclick="window.location.href='book_list.jsp'">
             </td>
         </tr>
     </table>

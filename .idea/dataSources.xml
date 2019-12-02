@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="test@localhost" uuid="eab7b8d6-92c3-47cf-9c2c-9de76464aa40">
+    <data-source source="LOCAL" name="jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8" uuid="e41fadce-bf54-4d08-852b-92b7b1d78158">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/test</jdbc-url>
-      <driver-properties>
-        <property name="secondsBeforeRetryMaster" value="100" />
-      </driver-properties>
+      <jdbc-url>jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8</jdbc-url>
     </data-source>
   </component>
 </project>
