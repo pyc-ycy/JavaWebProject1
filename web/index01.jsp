@@ -62,6 +62,9 @@
     <br>
     <br>
     <input type="button" value="图书信息更改" onclick="window.location.href='http://localhost:8080/JavaWebProject1_war_exploded/FindServlet'">
+    <br>
+    <br>
+    <input type="button" value="批处理测试" onclick="window.location.href='JDBCOption/BatchTest.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>

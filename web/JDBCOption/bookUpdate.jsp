@@ -7,23 +7,21 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="com.lyq.bean.Book"%>
-<%@ page import="java.sql.*" %>
-<%@ page import="java.util.ArrayList" %>
 <%@ page import="java.util.List" %>
 <html>
 <head>
     <title>修改图书信息</title>
     <style type="text/css">
-        body{
+        body {
             background: #d7c7e9;
             align-items: center;
             text-align: center;
         }
     </style>
     <script type="text/javascript">
-        function check(form){
-            with(form){
-                if(bookCount.value === ""){
+        function check(form) {
+            with (form) {
+                if (bookCount.value === "") {
                     alert("图书数量不能为空");
                     return false;
                 }
@@ -33,10 +31,10 @@
     </script>
 </head>
 <body>
-<table align="center" width="450" border="1" height="180" bordercolor="white" cellpadding="1"
+<table align="center" width="700" border="1" height="180" bordercolor="white" cellpadding="1"
        cellspacing="1">
     <tr bgcolor="white">
-        <td align="center" colspan="6">
+        <td align="center" colspan="7">
             <h2>所有图书信息</h2>
         </td>
     </tr>
@@ -47,6 +45,7 @@
         <td><b>数量</b></td>
         <td><b>作者</b></td>
         <td><b>修改数量</b></td>
+        <td><b>删 除</b></td>
     </tr>
     <%
         List<Book> list = (List<Book>) request.getAttribute("list");
@@ -76,6 +75,9 @@
                     </label>
                     <input type="submit" value="修改">
                 </form>
+            </td>
+            <td>
+                <a href="${pageContext.request.contextPath}/DeleteServlet?id=<%=book.getId()%>">删除</a>
             </td>
         </tr>
     <%
