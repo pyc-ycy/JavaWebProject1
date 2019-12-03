@@ -6,5 +6,6 @@
   </component>
   <component name="SqlResolveMappings">
     <file url="file://$PROJECT_DIR$/web/JDBCOption/book_list.jsp" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;eab7b8d6-92c3-47cf-9c2c-9de76464aa40&quot;    }   }  } }}" />
+    <file url="file://$PROJECT_DIR$/web/JDBCOption/testConnectSQLite.jsp" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;d21c1901-96f9-4a6b-a6db-6ea81866aa55&quot;    }   }  } }}" />
   </component>
 </project>

@@ -7,5 +7,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="SQLite - sample.db" uuid="d21c1901-96f9-4a6b-a6db-6ea81866aa55">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/web/JDBCOption/data/sample.db</jdbc-url>
+    </data-source>
   </component>
 </project>

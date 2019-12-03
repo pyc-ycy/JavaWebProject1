@@ -108,9 +108,13 @@
     }
     %>
     <tr bgcolor="white">
-    <td align="center" colspan="5">
+    <td align="center" colspan="3">
         <input type="button" value="添加图书信息" onclick="window.location.href='book.jsp'">
     </td>
+        <td align="center" colspan="2">
+            <input type="button" value="修改" onclick="window.location.href='http://localhost:8080/JavaWebProject1_war_exploded/FindServlet'">
+        </td>
+    </tr>
 </table>
 </body>
 </html>

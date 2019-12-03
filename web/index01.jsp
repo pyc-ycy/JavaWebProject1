@@ -59,6 +59,9 @@
     <br>
     <br>
     <input type="button" value="图书信息查询" onclick="window.location.href='JDBCOption/book_list.jsp'">
+    <br>
+    <br>
+    <input type="button" value="图书信息更改" onclick="window.location.href='http://localhost:8080/JavaWebProject1_war_exploded/FindServlet'">
     <%@include file="test.jsp" %>
 </center>
 </body>

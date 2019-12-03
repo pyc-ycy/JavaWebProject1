@@ -88,6 +88,9 @@
             <td>
                 <input type="button" value="查询" onclick="window.location.href='book_list.jsp'">
             </td>
+            <td>
+                <input type="button" value="修改" onclick="window.location.href='http://localhost:8080/JavaWebProject1_war_exploded/FindServlet'">
+            </td>
         </tr>
     </table>
 </form>
