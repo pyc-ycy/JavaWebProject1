@@ -65,6 +65,9 @@
     <br>
     <br>
     <input type="button" value="批处理测试" onclick="window.location.href='JDBCOption/BatchTest.jsp'">
+    <br>
+    <br>
+    <input type="button" value="调用存储过程" onclick="window.location.href='JDBCOption/FindBookTest.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
