@@ -68,6 +68,9 @@
     <br>
     <br>
     <input type="button" value="调用存储过程" onclick="window.location.href='JDBCOption/FindBookTest.jsp'">
+    <br>
+    <br>
+    <input type="button" value="分页查询" onclick="window.location.href='FindProductServlet'">
     <%@include file="test.jsp" %>
 </center>
 </body>
