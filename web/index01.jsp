@@ -34,6 +34,8 @@
 <body>
 <input type="button" value="上一页" onclick="window.location.href='index.jsp'">
 <center>
+    ${"我在测试EL语法"}
+    <br>
     <input type="button" value="时间日期" onclick="window.location.href='JavaBeanSet/JavaBeanUse/dateTime.jsp'">
     <br>
     <br>
@@ -73,5 +75,6 @@
     <input type="button" value="分页查询" onclick="window.location.href='FindProductServlet'">
     <%@include file="test.jsp" %>
 </center>
+<input type="button" value="下一页" onclick="window.location.href='index02.jsp'">
 </body>
 </html>
