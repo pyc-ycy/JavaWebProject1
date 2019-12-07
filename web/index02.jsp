@@ -34,7 +34,10 @@
 <body>
 <input type="button" value="上一页" onclick="window.location.href='index01.jsp'">
 <center>
-    <input type="button" value="EL获取数据" onclick="window.location.href='ELCodeSet/ELTest.jsp'">
+    <input type="button" value="EL表达式" onclick="window.location.href='ELCodeSet/ELTest.jsp'">
+    <br>
+    <br>
+    <input type="button" value="EL隐含对象" onclick="window.location.href='ELCodeSet/ImpEL.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>

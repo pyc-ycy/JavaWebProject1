@@ -70,5 +70,11 @@ power=${power}<br>
 ${userName!=""and(userName=="ycy")}<br>
 \${userName=="御承扬"and(power=="test")}
 ${userName=="御承扬"and(power=="test")}
+<h2>5、条件运算</h2>
+<%
+    request.setAttribute("str", "天若有情天亦老，人间正道是沧桑。");
+%>
+\${empty str? "str is null":str}:
+${empty str?"str is null":str}
 </body>
 </html>
