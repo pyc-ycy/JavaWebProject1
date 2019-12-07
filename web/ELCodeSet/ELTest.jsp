@@ -59,6 +59,16 @@ ${requestl}:${province[requestl]}<br>
     ${empty user}<br>
     ${empty user1}
 </h3>
-
+<h2>4、关系逻辑运算</h2>
+<%
+    request.setAttribute("userName","御承扬");
+    request.setAttribute("power", "test");
+%>
+userName=${userName}<br>
+power=${power}<br>
+\${userName!=""and(userName="ycy")}:
+${userName!=""and(userName=="ycy")}<br>
+\${userName=="御承扬"and(power=="test")}
+${userName=="御承扬"and(power=="test")}
 </body>
 </html>
