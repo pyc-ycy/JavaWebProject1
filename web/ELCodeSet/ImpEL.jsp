@@ -31,5 +31,15 @@ ${pageContext.session.maxInactiveInterval}<br>
 ${pageContext.exception.message}<br>
 <b>1.6、访问 servletContext 对象</b><br>
 ${pageContext.servletContext.contextPath}<br>
+<h2>2、访问作用域范围内的隐含对象</h2>
+<h3>2.1、pageScope</h3>
+<jsp:useBean id="student" class="com.lyq.bean.StudentInfo" type="com.lyq.bean.StudentInfo">
+    <jsp:setProperty name="student" property="ID" value="201724073169"/>
+    <jsp:setProperty name="student" property="name" value="Lucy"/>
+</jsp:useBean>
+\${pageScope.student.ID}:
+${pageScope.student.ID}<br>
+\${pageScope.student.name}:
+${pageScope.student.name}<br>
 </body>
 </html>
