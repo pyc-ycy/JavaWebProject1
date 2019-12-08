@@ -41,5 +41,29 @@ ${pageContext.servletContext.contextPath}<br>
 ${pageScope.student.ID}<br>
 \${pageScope.student.name}:
 ${pageScope.student.name}<br>
+<h3>2.2、requestScope</h3>
+<%
+    request.setAttribute("author", "御承扬");
+%>
+\${requestScope.author}:
+${requestScope.author}<br>
+<h2>3、访问环境信息的隐含对象</h2>
+<label for="test">请输入：</label><input name="test" id="test" type="text" value="我在测试">
+${param.test}<br>
+<label for="affect">请选择：</label>
+<input name="affect" type="checkbox" id="affect" value="苹果">
+苹果
+<input name="affect" type="checkbox" id="affect" value="香蕉">
+香蕉
+<input name="affect" type="checkbox" id="affect" value="橘子">
+橘子
+<br>
+所选水果为：${paramValues.affect[1]}&nbsp;${paramValues.affect[2]}<br>
+${initParam.author}<br>
+<%
+    Cookie cookie = new Cookie("test", "trying");
+    response.addCookie(cookie);
+%>
+${cookie.test.value}
 </body>
 </html>

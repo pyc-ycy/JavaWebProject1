@@ -38,6 +38,14 @@
     <br>
     <br>
     <input type="button" value="EL隐含对象" onclick="window.location.href='ELCodeSet/ImpEL.jsp'">
+    <br>
+    <form name="form1" method="post" action="ELCodeSet/deal.jsp">
+        <label>
+            <textarea name="content" cols="30" rows="5"></textarea>
+        </label>
+        <br>
+        <input type="submit" name="Button" value="提交">
+    </form>
     <%@include file="test.jsp" %>
 </center>
 </body>
