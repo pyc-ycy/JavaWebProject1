@@ -9,9 +9,16 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>应用&lt;c:out&gt;</title>
+    <title>JSTL 应用</title>
+    <style type="text/css">
+        body{
+            align-items: center;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+<h2>应用&lt;c:out&gt;</h2>
 escapeXml 为 true 时：
 <c:out value="水平标记线<hr>" escapeXml="true"></c:out>
 <br>
