@@ -8,8 +8,8 @@
 package com.lyq.bean;
 
 public class StudentInfo {
-    private String ID;
-    private String name;
+    private String ID="";
+    private String name="";
 
     public void setName(String name) {
         this.name = name;
