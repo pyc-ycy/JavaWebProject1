@@ -10,6 +10,13 @@
 <html>
 <head>
     <title>显示结果</title>
+    <style type="text/css">
+        body{
+            background: #d7c7e9;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 内容为：<br>

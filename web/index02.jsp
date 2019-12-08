@@ -46,6 +46,9 @@
         <br>
         <input type="submit" name="Button" value="提交">
     </form>
+    <br>
+    <br>
+    <input type="button" value="JSTL" onclick="window.location.href='JSTLCodeSet/test.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
