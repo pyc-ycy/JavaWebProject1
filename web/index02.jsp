@@ -54,7 +54,10 @@
     <input type="button" value="c_set" onclick="window.location.href='JSTLCodeSet/c_set.jsp'">
     <br>
     <br>
-    <input type="button" value="c_remove" onclick="window.location.href='JSTLCodeSet/c_remove.jsp'">
+    <input type="button" value="JSTL的表达式标签" onclick="window.location.href='JSTLCodeSet/c_remove.jsp'">
+    <br>
+    <br>
+    <input type="button" value="JSTL的URL标签" onclick="window.location.href='JSTLCodeSet/JSTL_URL.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
