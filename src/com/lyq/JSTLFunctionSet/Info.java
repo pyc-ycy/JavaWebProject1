@@ -8,13 +8,13 @@
 package com.lyq.JSTLFunctionSet;
 
 public class Info {
-    public String info="";
+    public String str="";
 
-    public void setInfo(String info) {
-        this.info = info;
+    public void setStr(String str) {
+        this.str = str;
     }
 
-    public String getInfo() {
-        return info;
+    public String getStr() {
+        return str;
     }
 }

@@ -43,18 +43,18 @@
         <filter-name>FilterTest</filter-name>
         <url-pattern>/FilterJSPSet/filterJSPTest.jsp</url-pattern>
     </filter-mapping>
-    <filter>
-        <filter-name>CharactorFilter</filter-name>
-        <filter-class>com.lyq.ServletFilterSet.CharactorFilter</filter-class>
-        <init-param>
-            <param-name>encoding</param-name>
-            <param-value>UTF-8</param-value>
-        </init-param>
-    </filter>
-    <filter-mapping>
-        <filter-name>CharactorFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
+<!--    <filter>-->
+<!--        <filter-name>CharactorFilter</filter-name>-->
+<!--        <filter-class>com.lyq.ServletFilterSet.CharactorFilter</filter-class>-->
+<!--        <init-param>-->
+<!--            <param-name>encoding</param-name>-->
+<!--            <param-value>UTF-8</param-value>-->
+<!--        </init-param>-->
+<!--    </filter>-->
+<!--    <filter-mapping>-->
+<!--        <filter-name>CharactorFilter</filter-name>-->
+<!--        <url-pattern>/*</url-pattern>-->
+<!--    </filter-mapping>-->
     <servlet>
         <servlet-name>AddServlet</servlet-name>
         <servlet-class>com.lyq.ServletFilterSet.AddServlet</servlet-class>
