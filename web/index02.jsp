@@ -52,6 +52,9 @@
     <br>
     <br>
     <input type="button" value="c_set" onclick="window.location.href='JSTLCodeSet/c_set.jsp'">
+    <br>
+    <br>
+    <input type="button" value="c_remove" onclick="window.location.href='JSTLCodeSet/c_remove.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
