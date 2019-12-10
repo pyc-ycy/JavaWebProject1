@@ -13,6 +13,7 @@
     <style type="text/css">
         body{
             align-items: center;
+            text-align: center;
         }
     </style>
 </head>
@@ -29,5 +30,18 @@
 <c:if test="${!key}">
     <b>${param.agent}</b>欢迎！
 </c:if>
+<h2>2、&lt;c:choose&gt;</h2>
+<c:choose>
+    <c:when test="${empty param.str}">
+        <form name="form1" method="post" action="">
+            <label for="str">搜索条件：</label><input type="text" name="str" id="str">
+            &nbsp;&nbsp;
+            <input type="submit" value="搜索">
+        </form>
+    </c:when>
+    <c:otherwise>
+        ${param.str} 所得的搜索结果：
+    </c:otherwise>
+</c:choose>
 </body>
 </html>
