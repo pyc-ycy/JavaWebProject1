@@ -58,6 +58,9 @@
     <br>
     <br>
     <input type="button" value="JSTL的URL标签" onclick="window.location.href='JSTLCodeSet/JSTL_URL.jsp'">
+    <br>
+    <br>
+    <input type="button" value="流程控制标签" onclick="window.location.href='JSTLCodeSet/JSTL_LCKZ.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
