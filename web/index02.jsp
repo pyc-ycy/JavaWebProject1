@@ -64,6 +64,9 @@
     <br>
     <br>
     <input type="button" value="循环标签" onclick="window.location.href='JSTLCodeSet/JSTL_XHBQ.jsp'">
+    <br>
+    <br>
+    <input type="button" value="检查用户名是否被注册" onclick="window.location.href='AjaxJSP/userLogin.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
