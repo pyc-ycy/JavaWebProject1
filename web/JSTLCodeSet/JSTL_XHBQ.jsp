@@ -42,5 +42,13 @@
 <c:forEach var="i" begin="2" end="10" step="2">
     ${i}&nbsp;&nbsp;
 </c:forEach>
+<h2>2、&lt;c:forTokens&gt;</h2>
+<c:set var="Str" value="A day is a miniature of eternity;Miracles sometimes occur, but one has to work terribly for them;
+single spark can start a prairie fire;Don't trouble trouble till trouble troubles you"/>
+<b>源字符串：</b><c:out value="${Str}"/>
+<br><b>分割后：</b>
+<c:forTokens items="${Str}" delims=";" var="item">
+    ${item}<br>
+</c:forTokens>
 </body>
 </html>
