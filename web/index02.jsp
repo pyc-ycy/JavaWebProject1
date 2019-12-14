@@ -61,6 +61,9 @@
     <br>
     <br>
     <input type="button" value="流程控制标签" onclick="window.location.href='JSTLCodeSet/JSTL_LCKZ.jsp'">
+    <br>
+    <br>
+    <input type="button" value="循环标签" onclick="window.location.href='JSTLCodeSet/JSTL_XHBQ.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
