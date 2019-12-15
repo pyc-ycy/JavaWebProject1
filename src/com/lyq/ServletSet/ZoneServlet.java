@@ -5,9 +5,7 @@
 // Author:御承扬
 //E-mail:2923616405@qq.com
 package com.lyq.ServletSet;
-
 import com.lyq.bean.CityMap;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

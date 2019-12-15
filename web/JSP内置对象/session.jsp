@@ -24,7 +24,8 @@
 </head>
 <body>
 <%
-    String name = new String(request.getParameter("name").getBytes(StandardCharsets.ISO_8859_1), StandardCharsets.UTF_8);
+    //String name = new String(request.getParameter("name").getBytes(StandardCharsets.ISO_8859_1), StandardCharsets.UTF_8);
+    String name = request.getParameter("name");
     session.setAttribute("name", name);
 %>
 <div>

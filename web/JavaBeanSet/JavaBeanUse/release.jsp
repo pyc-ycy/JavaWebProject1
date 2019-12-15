@@ -16,7 +16,7 @@
 <jsp:setProperty name="news" property="*"></jsp:setProperty>
 <div align="center">
     <div id="container">
-        <div id="tiltle">
+        <div id="title">
             <%=encoding.toString(news.getTitle())%>
         </div>
         <hr>

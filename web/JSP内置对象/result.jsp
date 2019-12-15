@@ -26,7 +26,8 @@
 <body>
 <%
     String name = session.getAttribute("name").toString();
-    String solution = new String(request.getParameter("address").getBytes(StandardCharsets.ISO_8859_1), StandardCharsets.UTF_8);
+    String solution = request.getParameter("address");
+    //String solution = new String(request.getParameter("address").getBytes(StandardCharsets.ISO_8859_1), StandardCharsets.UTF_8);
 %>
 <form id="from1" name="form1" method="post" action="">
     <table>

@@ -9,7 +9,6 @@
 
 package com.lyq.bean;
 import java.io.UnsupportedEncodingException;
-import java.nio.charset.StandardCharsets;
 
 public class CharactorEncoding {
     public CharactorEncoding(){}
@@ -17,7 +16,7 @@ public class CharactorEncoding {
     public String toString(String str) throws UnsupportedEncodingException {
         String text = "";
         if(str != null && !"".equals(str)){
-            text = new String(str.getBytes(StandardCharsets.ISO_8859_1), StandardCharsets.UTF_8);
+            text = str;
         }
         return text;
     }
