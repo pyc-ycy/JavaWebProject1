@@ -70,6 +70,9 @@
     <br>
     <br>
     <input type="button" value="显示书籍信息" onclick="window.location.href='AjaxJSP/Ajax01.jsp'">
+    <br>
+    <br>
+    <input type="button" value="显示省份和城市信息" onclick="window.location.href='AjaxJSP/Ajax02.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
