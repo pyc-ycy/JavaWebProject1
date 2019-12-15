@@ -12,14 +12,14 @@
     <script language="javascript">
         function createRequest(url) {
             http_request = false;
-            if (window.XMLHttpRequest) {    							   // 非IE浏览器
-                http_request = new XMLHttpRequest();	                      //创建XMLHttpRequest对象
-            } else if (window.ActiveXObject) {     						   // IE浏览器
+            if (window.XMLHttpRequest) {    							   // a browser is not IE
+                http_request = new XMLHttpRequest();	                      //create XMLHttpRequest object instance
+            } else if (window.ActiveXObject) {     						   // a browser is IE
                 try {
-                    http_request = new ActiveXObject("Msxml2.XMLHTTP");	   //创建XMLHttpRequest对象
+                    http_request = new ActiveXObject("Msxml2.XMLHTTP");
                 } catch (e) {
                     try {
-                        http_request = new ActiveXObject("Microsoft.XMLHTTP");  //创建XMLHttpRequest对象
+                        http_request = new ActiveXObject("Microsoft.XMLHTTP");
                     } catch (e) {}
                 }
             }
@@ -27,16 +27,16 @@
                 alert("Cannot create XMLHttpRequest object instance!");
                 return false;
             }
-            http_request.onreadystatechange = getResult;					   //调用返回结果处理函数
-            http_request.open('GET', url, true);							   //创建与服务器的连接
-            http_request.send(null);									   //向服务器发送请求
+            http_request.onreadystatechange = getResult;					   // call option function  to deal with the result
+            http_request.open('GET', url, true);							   // create the connection between the server and client
+            http_request.send(null);									   // send a request to a server
         }
         function getResult() {
-            if (http_request.readyState === 4) {     		// 判断请求状态
-                if (http_request.status === 200) {     		// 请求成功，开始处理返回结果
+            if (http_request.readyState === 4) {     		// Judge the statue of request
+                if (http_request.status === 200) {     		// Request successfully,start to deal with the result of return
                     document.getElementById("toolTip").innerHTML=http_request.responseText;	//设置提示内容
-                    document.getElementById("toolTip").style.display="block";	//显示提示框
-                } else {     						// 请求页面有错误
+                    document.getElementById("toolTip").style.display="block";	//show tooltip
+                } else {     						// An error occurred on the request pages
                     alert("The page you requested has errors!");
                 }
             }
@@ -55,22 +55,22 @@
             position:absolute;
             left:331px;
             top:39px;
-            width:98px;
-            height:48px;
+            width:100px;
+            height:150px;
             padding-top:45px;
             padding-left:25px;
             padding-right:25px;
             z-index:1;
             display:none;
             color:red;
-            background-image: url(images/tooltip.jpg);
+            background: #9ce9dd;
         }
         -->
     </style>
 </head>
 <body>
 <form method="post" action="" name="form">
-    <table width="509" height="352" border="0" align="center" cellpadding="0" cellspacing="0" background="images/bg.gif">
+    <table width="509" height="352" border="0" align="center" cellpadding="0" cellspacing="0" >
         <tr>
             <td height="54">&nbsp;</td>
         </tr>

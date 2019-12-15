@@ -67,6 +67,9 @@
     <br>
     <br>
     <input type="button" value="检查用户名是否被注册" onclick="window.location.href='AjaxJSP/userLogin.jsp'">
+    <br>
+    <br>
+    <input type="button" value="显示书籍信息" onclick="window.location.href='AjaxJSP/Ajax01.jsp'">
     <%@include file="test.jsp" %>
 </center>
 </body>
