@@ -76,6 +76,9 @@
     <br>
     <br>
     <input type="button" value="文件上传" onclick="window.location.href='AjaxJSP/file.jsp'">
+    <br>
+    <br>
+    <input type="button" value="请求 Struts2" onclick="window.location.href='first.action'">
     <%@include file="test.jsp" %>
 </center>
 </body>
